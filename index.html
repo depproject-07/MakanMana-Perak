@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakanMana @ Perak</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR ATAS (BAR MERAH) -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-utensils"></i>
+                <h2>MakanMana <span>@ Perak</span></h2>
+            </div>
+            <a href="https://wa.me/60108820686?text=Hai%20MakanMana,%20saya%20berminat%20nak%20tambah%20kedai" target="_blank" class="btn-add-shop">
+                <i class="fa-brands fa-whatsapp"></i> Tambah Kedai Anda
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO TEXT -->
+    <section class="hero-text">
+        <h1>Lapar ke tu? Nak makan mana kat Perak hari ni?</h1>
+        <p>Pilih daerah & kategori makanan kegemaran korang di bawah:</p>
+    </section>
+
+    <main class="container">
+        
+        <!-- PENAPIS DAERAH / KAWASAN (DITAMBAH) -->
+        <div class="filter-container">
+            <label for="district-filter"><i class="fa-solid fa-location-dot"></i> Pilih Daerah / Kawasan:</label>
+            <select id="district-filter" onchange="applyFilters()">
+                <option value="all">Seluruh Perak</option>
+                <option value="Ipoh">Ipoh</option>
+                <option value="Taiping">Taiping</option>
+                <option value="Manjung">Manjung / Sitiawan / Pangkor</option>
+                <option value="Kuala Kangsar">Kuala Kangsar</option>
+                <option value="Teluk Intan">Teluk Intan</option>
+                <option value="Kampar">Kampar</option>
+                <option value="Batu Gajah">Batu Gajah</option>
+                <option value="Seri Iskandar">Seri Iskandar</option>
+                <option value="Tanjung Malim">Tanjung Malim</option>
+            </select>
+        </div>
+
+        <!-- BUTANG KATEGORI MAKANAN -->
+        <div class="category-buttons">
+            <button class="cat-btn active" onclick="filterCategory('all', this)">
+                <i class="fa-solid fa-border-all"></i> Semua
+            </button>
+            <button class="cat-btn" onclick="filterCategory('sarapan', this)">
+                <i class="fa-solid fa-egg"></i> Sarapan
+            </button>
+            <button class="cat-btn" onclick="filterCategory('tengah-hari', this)">
+                <i class="fa-solid fa-bowl-rice"></i> Makan Tengah Hari
+            </button>
+            <button class="cat-btn" onclick="filterCategory('petang/malam', this)">
+                <i class="fa-solid fa-moon"></i> Petang/Malam
+            </button>
+            <button class="cat-btn" onclick="filterCategory('mamak', this)">
+                <i class="fa-solid fa-mug-hot"></i> Mamak
+            </button>
+            <button class="cat-btn" onclick="filterCategory('kafe', this)">
+                <i class="fa-solid fa-mug-saucer"></i> Kafe
+            </button>
+        </div>
+
+        <!-- SENARAI KAD KEDAI -->
+        <div id="restaurant-list" class="restaurant-grid"></div>
+
+    </main>
+
+    <!-- MODAL POPUP (DETAIL KEDAI) -->
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">&times;</button>
+            
+            <h2 id="modal-title">Nama Kedai</h2>
+            
+            <p id="modal-location-text" class="location-tag">
+                <i class="fa-solid fa-location-dot"></i> <span>Lokasi Kedai</span>
+            </p>
+
+            <p class="hours-tag">
+                <i class="fa-solid fa-clock"></i> <span id="modal-hours">Masa Operasi</span>
+            </p>
+
+            <p id="modal-desc" class="desc-text">Penerangan ringkas kedai...</p>
+
+            <h3><i class="fa-solid fa-images"></i> Galeri Foto</h3>
+            <div id="modal-gallery" class="gallery-grid"></div>
+
+            <div class="modal-actions">
+                <a id="modal-map-link" href="#" target="_blank" class="map-btn">
+                    <i class="fa-solid fa-map-location-dot"></i> Buka Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div id="overlay" onclick="closeModal()"></div>
+
+    <!-- Lightbox-->
+    <div id="imageViewer" class="image-viewer" onclick="this.classList.remove('active')">
+        <span class="close-viewer">&times;</span>
+        <img id="fullImage" src="" alt="Gambar Besar">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

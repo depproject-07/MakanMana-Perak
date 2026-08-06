@@ -1,0 +1,356 @@
+/* RESET & BASIC STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #2b2d42;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+    padding: 0 15px;
+}
+
+/* NAVBAR (BAR MERAH ATAS) */
+.navbar {
+    background-color: #d90429;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.logo i { font-size: 1.5rem; }
+.logo h2 { font-size: 1.4rem; font-weight: 800; }
+.logo span { font-weight: 400; font-size: 1.1rem; opacity: 0.9; }
+
+.btn-add-shop {
+    background-color: #25d366;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-add-shop:hover {
+    background-color: #1eb854;
+    transform: translateY(-2px);
+}
+
+/* HERO TEKS */
+.hero-text {
+    text-align: center;
+    padding: 30px 20px 15px 20px;
+}
+
+.hero-text h1 {
+    font-size: 1.6rem;
+    color: #2b2d42;
+    margin-bottom: 6px;
+    font-weight: 800;
+}
+
+.hero-text p {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+/* PENAPIS DAERAH */
+.filter-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-container label {
+    font-weight: 700;
+    margin-right: 8px;
+    color: #2b2d42;
+    font-size: 0.95rem;
+}
+
+.filter-container select {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid #d90429;
+    background-color: #fff;
+    font-weight: 600;
+    color: #2b2d42;
+    cursor: pointer;
+    outline: none;
+}
+
+/* BUTANG KATEGORI (GAYA OUTLINE MERAH MACAM GAMBAR) */
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.cat-btn {
+    padding: 8px 18px;
+    border: 1.5px solid #d90429;
+    background-color: white;
+    color: #d90429;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cat-btn:hover, .cat-btn.active {
+    background-color: #d90429;
+    color: white;
+}
+
+/* CARDS & GRID */
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    position: relative;
+    border: 1px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card.pinned {
+    border: 2px solid #ffb703;
+}
+
+.card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* BADGES ON CARD */
+.badge-group {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.badge-featured {
+    background-color: #ffb703;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.badge-cat {
+    background-color: #e9ecef;
+    color: #d90429;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #2b2d42;
+}
+
+.card-district {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 12px;
+}
+
+/* BUTANG DETAIL & LOKASI AT BOTTOM CARD */
+.btn-card-detail {
+    margin-top: auto;
+    width: 100%;
+    background-color: #1d3557; /* Warna navy macam dalam gambar kau */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.btn-card-detail:hover {
+    background-color: #457b9d;
+}
+
+/* MODAL POPUP */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.modal-content { position: relative; }
+
+.close-btn {
+    position: absolute;
+    top: 0; right: 0;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.location-tag { color: #d90429; font-weight: 600; margin-bottom: 4px; }
+
+.hours-tag {
+    color: #2a9d8f;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.desc-text { 
+    font-size: 0.88rem; 
+    color: #4a5568; 
+    margin-bottom: 15px; 
+    max-height: 2.6em;
+    line-height: 1.3em;
+    overflow: hidden;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 10px 0 20px 0;
+}
+
+.gallery-grid img {
+    width: 100%; height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.map-btn {
+    display: block;
+    text-align: center;
+    background-color: #d90429;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+/*Styling Lightbox*/
+.image-viewer {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image-viewer img {
+    max-width: 90%;
+    max-height: 85%;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    object-fit: contain;
+}
+
+.image-viewer.active {
+    display: flex !important;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.modal.active, #overlay.active { display: block; }
