@@ -121,7 +121,7 @@ const restaurants = [
         district: "Manjung",
         isPinned: false,
         operatingHours: "8:00 AM - 5:00 PM (Tutup Jumaat)",
-        desc: "",
+        desc: "Kafe dengan gaya klasik",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntr1CDw1lHjlpEOjejP6Uuq2FVPLy9nC0BZhoxpM3itUimV2MNhvAUcc1CK6yqiFeLZJc4SuqKyEviX-CJtuor2XyS1JkV6tMPd4JorJEmiF6sxXQ9Tpg6dHTaVbHoNw1dBJHlsg=s1360-w1360-h1020-rw",
         photos: [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloAoaDX-3WOJdxGVfSWO1L8VbJ-MQVfTiuRLWme09LGID7LEJZXMgrfeRj8iESrY1tkEUEMUmq-Mdjo9ylgGwPiwVNU58OxCF6K-0g_Tkrdof0i_YFVTM8Io_pR3_b_e7mmopXH9zvL_Y=s1360-w1360-h1020-rw",
