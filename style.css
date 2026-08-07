@@ -280,9 +280,11 @@ body {
     font-size: 0.88rem; 
     color: #4a5568; 
     margin-bottom: 15px; 
-    max-height: 2.6em;
-    line-height: 1.3em;
-    overflow: hidden;
+    max-height: none !important;
+    line-height: 1.4em;
+    overflow: visible !important;
+    white-space: normal !important;
+    -webkit-line-clamp: unset !important;
 }
 
 .gallery-grid {
