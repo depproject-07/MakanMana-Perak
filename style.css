@@ -134,12 +134,17 @@ body {
 }
 
 /* CARDS & GRID */
-.restaurant-grid {
-   grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px !important;
-    padding: 10px !important;
+-restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
 }
-
+@media (max-width: 768px) {
+    .restaurant-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+}
 .card {
     background-color: white;
     border-radius: 12px;
