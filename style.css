@@ -364,4 +364,39 @@ body {
     font-weight: bold;
 }
 
+/*Mobile header */
+@media (max-width: 768px) {
+    .hero-text{
+        padding: 8px 12px !important;
+    }
+
+    .hero-text h1 {
+        font-size: 1.15rem !important;
+        margin-bottom: 2px !important;
+    }
+
+    .hero-text p {
+        font-size: 1.15rem !important;
+    }
+
+    .search-box {
+        margin-bottom: 8px !important;
+    }
+
+    .category-container, .category-buttom {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        gap: 6px !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .cat-btn {
+        white-space: nowrap !important;
+        font-size: 0.78rem !important;
+        padding: 5px 10px !important;
+        flex-shrink: 0 !important;
+    }
+}
+
 .modal.active, #overlay.active { display: block; }
