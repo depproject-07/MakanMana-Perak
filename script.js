@@ -452,7 +452,7 @@ function renderCards(list) {
 
 // 5. BUKA POPUP MODAL
 function openModal(id) {
-    const item = restaurants.find(r => r.id === id);
+    const item = restaurants.find(r => r.id == id);
     if (!item) return;
 
     document.getElementById('modal-title').innerText = item.name;
