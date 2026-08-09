@@ -394,7 +394,7 @@ function applyFilters() {
             );
     }
 
-    // TAPIS 3: RAWAKKAN SENARAI KEDAI UNTUK KEADILAN PENIAGA
+    // TAPIS 3: RAWAKKAN SENARAI KEDAI 
     filtered = shuffleArray(filtered);
 
     // TAPIS 4: ASINGKAN & UTAMAKAN ISPINNED: TRUE DI ATAS
@@ -427,19 +427,18 @@ function renderCards(list) {
         card.className = `card ${item.isPinned ? 'pinned' : ''}`;
 
         card.innerHTML = `
-            <img src="${item.coverImage}" alt="${item.name}" class="card-img">
-            <div class="card-body">
-                <div class="badge-group">
-                    ${item.isPinned ? '<span class="badge-featured"><i class="fa-solid fa-star"></i> FEATURED</span>' : ''}
-                    <span class="badge-cat">${item.category}</span>
-                </div>
-                <h3 class="card-title">${item.name}</h3>
-                <p class="card-district"><i class="fa-solid fa-location-dot"></i> ${item.district}</p>
-                
-                <button class="btn-card-detail" onclick="openModal(${item.id})">
-                    <i class="fa-solid fa-eye"></i> Detail & Lokasi
-                </button>
-            </div>
+           <div class="card-img-wrapper" style="position: relative;">
+           <img src="${item.coverImage}" alt="${item.name}" class="card-img">
+           ${item.isPinned ? '<span class="badge-featured-overlay" ><i class="fa-solid fa-star" ></i> FEATURED</span' : ''}
+           </div>
+           <div class="card-body">
+           <span class="badge-category">${item.category}< /span>
+           <h3 class="card-title">${item.name}< /h3>
+           <p class="card-district"><i class="fa-solid fa-location-dot">< /i> ${item.district}< /p>
+           <button class="btn-card-detail" onclick="openModal('${item.id}')">
+           <i class="fa-solid fa-eye" ></i> Detail & Lokasi
+           </button>
+           </div>
         `;
         container.appendChild(card);
     });
