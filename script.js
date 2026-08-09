@@ -370,9 +370,10 @@ function filterCategory(category, buttonElement) {
     applyFilters();
 }
 
-// 3. FUNGSI GABUNGAN PENAPIS (KATEGORI + DAERAH + SHUFFLE + PINNED)
+// 3. FUNGSI GABUNGAN PENAPIS (SEARCH + KATEGORI + DAERAH + SHUFFLE + PINNED)
 function applyFilters() {
     const selectedDistrict = document.getElementById('district-filter').value;
+    const searchVal = document.getElementById('search-input')?.value.toLowerCase().trim() || '';
 
     // TAPIS 1: Mengikut Kategori
     let filtered = currentCategory === 'all' 
@@ -382,6 +383,15 @@ function applyFilters() {
     // TAPIS 2: Mengikut Daerah
     if (selectedDistrict !== 'all') {
         filtered = filtered.filter(r => r.district.toLowerCase().includes(selectedDistrict.toLowerCase()));
+    }
+
+    //Searchbar
+    if (searchVal !== '') {
+        filtered = filtered.filter (r =>
+            r.name.toLowerCase().includes(searchVal) ||
+            r.category.toLowerCase().includes(searchVal) ||
+            (r.desc && r.desc.toLowerCase().includes(searchVal))
+            );
     }
 
     // TAPIS 3: RAWAKKAN SENARAI KEDAI UNTUK KEADILAN PENIAGA
