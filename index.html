@@ -33,6 +33,16 @@
         
         <!-- PENAPIS DAERAH / KAWASAN (DITAMBAH) -->
         <div class="filter-container">
+            <!--search bar-->
+            <div class="search-box" style="margin-bottom: 15px;">
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Cari nama kedai"
+                    oninput="applyFilters()"
+                    style="width: 100%; padding: 10px 15px; border-radius: 20px; border: 1px solid #ccc; font-size: 0.9rem;"
+                    />
+            </div>
             <label for="district-filter"><i class="fa-solid fa-location-dot"></i> Pilih Daerah / Kawasan:</label>
             <select id="district-filter" onchange="applyFilters()">
                 <option value="all">Seluruh Perak</option>
