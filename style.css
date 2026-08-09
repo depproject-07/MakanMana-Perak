@@ -399,4 +399,38 @@ body {
     }
 }
 
+/*featured kat gambar*/
+.bagde-featured-overlay {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #ffb703;
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.65rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.badge-category {
+    font-size: 0.68rem;
+    background-color: #ffe6e6;
+    color: #d90429;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 6px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+    
 .modal.active, #overlay.active { display: block; }
