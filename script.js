@@ -422,26 +422,27 @@ function renderCards(list) {
         return;
     }
 
-    list.forEach(item => {
-        const card = document.createElement('div');
-        card.className = `card ${item.isPinned ? 'pinned' : ''}`;
+   list.forEach(item => {
+    const card = document.createElement('div');
+    card.className = `card ${item.isPinned ? 'pinned' : ''}`;
 
-        card.innerHTML = `
-           <div class="card-img-wrapper" style="position: relative;">
-           <img src="${item.coverImage}" alt="${item.name}" class="card-img">
-           ${item.isPinned ? '<span class="badge-featured-overlay" ><i class="fa-solid fa-star" ></i> FEATURED</span' : ''}
-           </div>
-           <div class="card-body">
-           <span class="badge-category">${item.category}< /span>
-           <h3 class="card-title">${item.name}< /h3>
-           <p class="card-district"><i class="fa-solid fa-location-dot">< /i> ${item.district}< /p>
-           <button class="btn-card-detail" onclick="openModal('${item.id}')">
-           <i class="fa-solid fa-eye" ></i> Detail & Lokasi
-           </button>
-           </div>
-        `;
-        container.appendChild(card);
-    });
+    card.innerHTML = `
+      <div class="card-img-wrapper" style="position: relative;">
+        <img src="${item.coverImage}" alt="${item.name}" class="card-img">
+        ${item.isPinned ? `<span class="badge-featured-overlay"><i class="fa-solid fa-star"></i> FEATURED</span>` : ''}
+      </div>
+      <div class="card-body">
+        <span class="badge-category">${item.category}</span>
+        <h3 class="card-title">${item.name}</h3>
+        <p class="card-district"><i class="fa-solid fa-location-dot"></i> ${item.district}</p>
+        <button class="btn-card-detail" onclick="openModal('${item.id}')">
+          <i class="fa-solid fa-eye"></i> Detail & Lokasi
+        </button>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
 }
 
 // 5. BUKA POPUP MODAL
