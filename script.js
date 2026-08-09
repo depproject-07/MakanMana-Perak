@@ -426,10 +426,15 @@ function renderCards(list) {
     const card = document.createElement('div');
     card.className = `card ${item.isPinned ? 'pinned' : ''}`;
 
+    let featuredBadge = '';
+    if (item.isPinned) {
+      featuredBadge = '<span class="badge-featured-overlay"><i class="fa-solid fa-star"></i> FEATURED</span>';
+    }
+
     card.innerHTML = `
       <div class="card-img-wrapper" style="position: relative;">
         <img src="${item.coverImage}" alt="${item.name}" class="card-img">
-        ${item.isPinned ? `<span class="badge-featured-overlay"><i class="fa-solid fa-star"></i> FEATURED</span>` : ''}
+        ${featuredBadge}
       </div>
       <div class="card-body">
         <span class="badge-category">${item.category}</span>
