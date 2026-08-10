@@ -343,6 +343,25 @@ const restaurants = [
         ],
         googleMapsUrl: "https://maps.app.goo.gl/mAC9DmJy5VRskYE8A"
     },
+    {
+        id: 19,
+        name: "Big Portion Cafe",
+        category: "petang/malam",
+        district: "Batu Gajah",
+        isPinned: false,
+        operatingHours: "4:00 PM - 11:30 PM",
+        desc: "Port makan malam kegemaran ramai di Batu Gajah! Menyajikan pelbagai pilihan pizza, nasi arab, makanan western dan ala carte.",
+        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnK65mIBJjZqfln_0Eck4bZ2AX9Jkjdvyt1BlQdb47ndCjrlyrg2x67iaGDxHoZfP-ZgHeHsdRNQ6HeKtZC7BMNmHVTY9isBzyc5CdzWkP3p_OBZKJ8km-VkRnQDah5SHnnEdDXIANg5W60=s1360-w1360-h1020-rw",
+        photos: [
+            "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-OPuy-lBjVYS0s3IbscTyw&cb_client=search.gws-prod.gps&yaw=297.87915&pitch=0&thumbfov=100&w=80&h=80",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDKTUbGHsOUaqbsdaMsDTi71S5vcT5Kv17YO-t_U5pdEPDMn7X2t__3Pnv1Sxhelvst8GdA2fDgzNHxASo0CIAs7V5VlaJo8_fVr0VON7TE1Oc_2_wnZpyVaRzp7tPYqFnAmLrwmoW2sqK=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhzULf7wn38etvF78qF2UMQB-AJPBBp3muQtXVPtNatIlDL7psUICFp4dlfZjBcBuXn8uWYw3pekiXc-5PxEpnwBTIVCl6U3nPwn6JY__R1BL37p8KOVvw-Iqbs6aIU_YSNXHKke_5mJ8=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnI1d7wQF89dPTd4xwUJhbAvrs1UJgENxgzyBd8TRB-mLwAaKXYKcqclPXcIAhk8dcvXYF8lz6WH1ncAUZBzrFORo53nts2QpBSoBMZ58wA_qysAYMxJP9zzV7ZF6nWsk-0LvIB7twbuDdm=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZOJc-YlnSHBv5d4yRQ9DJ10W3gV0jCrAhdndA6FJ2zCp3jD_irZaP7yn4glES4j_BjDJ-dRfZyL1bqqv5-8Ev_ndT-h7taVFeNqawSbEV3vzEzzg1p7MBGlCp6RPEWN8mbzCSJtIAdGGK=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmv2IcadqugHJ7TR161sUtYZ930eDUXXwjAdlkz1w6X4KBb7GAiUfwu2Myp-qaDMH_Y6w0xML5O4F8vmxxEXawLNPFhTnT-oCXjM5W3qgECVAiSs2Soxgke5XN550xULxomNafpkS65NkpO=s1360-w1360-h1020-rw"
+        ],
+        googleMapsUrl: "https://maps.app.goo.gl/sjVvjvR5FxuwUaHB8"
+    }
 ];
 
 //  untuk simpan kategori semasa
