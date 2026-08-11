@@ -45,7 +45,7 @@ const restaurants = [
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "7:30 AM - 12:30 AM",
-        desc: "Nikmati buffet breakfast harian secara walk-in di Artworks Hotel, Ipoh! Cafe Warisan Bonda turut menyediakan perkhidmatan tempahan khas bagi sajian lunch, hi-tea an dinner untuk group private event.",
+        desc: "Nikmati buffet breakfast harian secara walk-in di Artworks Hotel, Ipoh! Cafe Warisan Bonda turut menyediakan perkhidmatan tempahan khas bagi sajian lunch, hi-tea dan dinner untuk group private event.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0SlHH0c6AOSf21JqIhqY5AJzPcmxo8tOJm-feS5jHt0fx3Tmr8aqWo4y17SAxEehNcb65dq13YfMli6daIXrpDGUwMtD5L7OQ3xZ5sc1N1YC611m5LAwheYWwUGlVnk5v3YCbhQ=s1360-w1360-h1020-rw",
         photos: [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlLD3RxhL4fY52KtrZkqGX7yEkWhFS5mjB0wcluQvy4ybWPmHfsXLhJBE0EaK21cEvFVCJH_my0zwG1rfIq_QKKxb8aKFdWhrwu1GDG2VHMjlhyjYzc0cqGna7Ig4Ww6ok06-cc0VaIlhn5=s1360-w1360-h1020-rw",
