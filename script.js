@@ -5,7 +5,7 @@ const restaurants = [
         name: "Restoran Nasi Vanggey (Greentown)",
         category: "mamak",
         district: "Ipoh",
-        isPinned: true, 
+        isPinned: false, 
         operatingHours: "24 jam",
         desc: "Nasi kandar ikonik Ipoh yang terkenal dengan kuah campur pekat dan ayam merah berempah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmr_39dqmJp2CJleb-A7vw4gkryQ_BfHBE7vqQW5liE6GcK1cRmBswGYRooMtxtb5fzC9PfVU5M9-mvYO0es4S6eLEkztGj7bAIC6dw8OuL0JiUdiHqE4Wc-KBgQ-V9Xfd5iw8=w243-h174-n-k-no-nu",
