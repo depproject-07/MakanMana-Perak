@@ -25,7 +25,7 @@ const restaurants = [
         category: "petang/malam",
         district: "Ipoh",
         isPinned: false, 
-        operatingHours: "4:00 PM (Tutup Ahad)",
+        operatingHours: "4:00 PM (Ahad Tutup)",
         desc: "Port legend mee kicap, mee kari dan mee sup di Ipoh sejak tahun 1970-an. Terkenal dengan kuah mee yang lazat.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnrDt3uSf3ft6SOvoBJGB5L1us9wCKJ1VHiBrEvTL-LXzWYJrO0qJ33wTthiGuoVxN2Fpdumh9VnMoC8BKDzAziZzk3KUyWEjifUzsGC1P7gleBhFoxRbK4VG6Rph21EggsyySaWj9ACUib=s1360-w1360-h1020-rw",
         photos: [
@@ -63,7 +63,7 @@ const restaurants = [
         category: "tengah-hari",
         district: "Taiping",
         isPinned: false, 
-        operatingHours: "12:00 PM - 10:00 PM (Tutup Rabu)",
+        operatingHours: "12:00 PM - 10:00 PM (Rabu Tutup)",
         desc: "Mee udang galah banjir yang sangat popular kat Sepetang, Taiping. Kuah pekat mantap!",
         coverImage:  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjcIEgaq48epxOsuIFhh1toQMdckFxOvRaB_uN8J98M0MYU_P6coNpiVBMcerxadN-UpaYN1VYZIEKaFAS8ISPwrJCz8dBGhgiHCcg4sCxFs31hXZy4Bia9n_Egfh-As9miOcAcZzOZso=s1360-w1360-h1020-rw",
         photos: [
@@ -120,7 +120,7 @@ const restaurants = [
         category: "sarapan",
         district: "Manjung",
         isPinned: false,
-        operatingHours: "8:00 AM - 5:00 PM (Tutup Jumaat)",
+        operatingHours: "8:00 AM - 5:00 PM (Jumaat Tutup)",
         desc: "Kafe dengan gaya klasik",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntr1CDw1lHjlpEOjejP6Uuq2FVPLy9nC0BZhoxpM3itUimV2MNhvAUcc1CK6yqiFeLZJc4SuqKyEviX-CJtuor2XyS1JkV6tMPd4JorJEmiF6sxXQ9Tpg6dHTaVbHoNw1dBJHlsg=s1360-w1360-h1020-rw",
         photos: [
@@ -158,7 +158,7 @@ const restaurants = [
         category: "kafe",
         district: "Kuala Kangsar",
         isPinned: false,
-        operatingHours: "6:00 PM - 2:00 AM (Tutup Isnin)",
+        operatingHours: "6:00 PM - 2:00 AM (Isnin Tutup)",
         desc: "Kafe dengan suasana yang tenang. Layan suasana dengan pelbagai jenis air seperti latte, matcha dan makanan- makanan ringan",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1D6xo8qIuXzVvDrV5q558WVdT6f4VaGaV2D-Z3oQl1UlyIjvV3maFngq47Yu3Svsn18m-_XwfvphdWVkehuwvIZholfTrFZCl-PylWjyvsOrrLfcZqcG6GHBadPDSnSxpfhDzepbIjzU=s1360-w1360-h1020-rw",
         photos: [
@@ -197,7 +197,7 @@ const restaurants = [
         category: "sarapan",
         district: "Teluk Intan",
         isPinned: false,
-        operatingHours: "7:00 AM - 12:29 PM (Tutup Selasa)",
+        operatingHours: "7:00 AM - 12:29 PM (Selasa Tutup)",
         desc: "Kedai sarapan pagi dengan menu utamanya roti canai kosong kuah kari lamb shank.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmsN29FuAwMz3d8LcVbMLCuoJYHHehDgeTqiXef5pFQWHuqn6z-aq72K9efqDOnCH4JkOEomdvMQ897FzRRTeDPJjASsITG6G4FBO3TY9FUwp7AT0QYtTYbOSa8_IVgrXWH0p8DxI9rWYM=s1360-w1360-h1020-rw",
         photos: [
@@ -216,7 +216,7 @@ const restaurants = [
         category: "tengah-hari",
         district: "Teluk Intan",
         isPinned: false,
-        operatingHours: "7:00 AM - 5:00 PM (Tutup Ahad)",
+        operatingHours: "7:00 AM - 5:00 PM (Ahad Tutup)",
         desc: "Restoran makanan tengah hari dengan hidangan utama udang galah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWka82mIflAQ7lmZyyTVwgUhXP9ZQdnHIvVN4JjkrrHF4m0ystDkvv1DY9SVP0Q6GXUjmvJ6N6gJ0AHfqr9VebUfvdhdnObdNffcK9U315pvE4_hHyasXeKnHmXaN9Xh_YuSVKlPa2dEAek=s1360-w1360-h1020-rw",
         photos: [
@@ -273,7 +273,7 @@ const restaurants = [
         category: "sarapan",
         district: "Seri Iskandar",
         isPinned: false,
-        operatingHours: "7:00 AM - 12:30 PM (Tutup Isnin)",
+        operatingHours: "7:00 AM - 12:30 PM (Isnin tutup)",
         desc: "Port sarapan pagi dengan pelbagai menu di Seri Iskandar.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUyphMf8aF-xb4VAjqQY6m7N0HwEueBFekiiuzhAvYBcva16Agyvv_7IEcJVDVok0KGqPqyoyNfvEyIB6kng8-MMgHIkt-qmiyBiZg1L_rGOHHA1E_FwJf15uZOQ_Prxjo0gfx=s1360-w1360-h1020-rw",
         photos: [
@@ -361,13 +361,32 @@ const restaurants = [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmv2IcadqugHJ7TR161sUtYZ930eDUXXwjAdlkz1w6X4KBb7GAiUfwu2Myp-qaDMH_Y6w0xML5O4F8vmxxEXawLNPFhTnT-oCXjM5W3qgECVAiSs2Soxgke5XN550xULxomNafpkS65NkpO=s1360-w1360-h1020-rw"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/sjVvjvR5FxuwUaHB8"
+    },
+    {
+        id: 20,
+        name: "Dapor Montak Riverside Cafe",
+        category: "kafe",
+        district: "Ipoh",
+        isPinned: false,
+        operatingHours: "12:00 AM - 1:00 AM, 5:00 PM - 11:59 PM (Jumaat 5:00 pm - 11:59 PM | Khamis Tutup)",
+        desc: "Port makan Western tepi sungai di Ipoh! Menyajikan pelbagai hidangan Western seperti Grilled Lamb Shoulder, Spaghetti dan Burger.",
+        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0NEwarwQG4366qNTnY1VdSRwzgrT55YZ_rdrCXT-YvcFu455mJxyh9sFZ13lEEmMjr6PnipkvqVK-VRfbmokWSaFeQAlooKWckEHnzc1ovXbzJSaxKMy_tNhPdQVwGCbsOPpg5_IER1Co=s1360-w1360-h1020-rw",
+        photos: [
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1t9EckNlLxVrawKjZEoRvRTQLyPsuBCsUNRtRxg7UyEKCTteb3RW1eezQVfV56VJVXU5irbgaNWLCMH6w5lzy4KHV6TR-0i9J_V_pPZFhP_vmH4bQ1KkkTyBh8PK42dugELm-3kl7IB2S=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnc1PWM0tvmU5thslbWcMiojqoXbluldN0E1xqZ71DGPk1TFZaEmu3227LBeTCgFs_bzNO4QToDaWqPgiZLtwU7iUfmCw4iwVtyYaIQlOKkYovK6tO58XTHshZOz5QYZ8m8gBdGaCmpvt1X=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLHIFp8g6YZwhyJoIbPojvdia9HpLxJ_QPq5Qx0m2oz2DU4uex0YDsGA_a62yNhNFMzcjWs3PewvKNi9sQQIgOvZBbDHI241UFXPFufd6Q7UgVI8m-CXoqZDqZ8JX9I_R0DPB7DfuWXOQv=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBRI6OHWOZOGt7VzDmRzB7eSfen4iBkieclXKdrBve9RUMqYlX5UW-z0vsd0PuFW0kNmURWr4b9tKDYMrCbmdKGdS7Om8YdBSnI2-vaBp36-erOcOWo8lzLJtULY1SMvHACFq4xeQAMI4=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkaGlzpj9mzzEwO5VjWWwNZHdA0qV-27GVSy4aI5QiT-j7W3rjurSgvOLRjilRRY_56BfR0-invKQ3wF1esuM5KJl99Hk6hrFJK5b-KqlWKFMH8euP03nprZ9AlTfvmiZZ2qPSW=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAm_rSGpcqbbqb_q2_A-fpZOf9ma1H0S66DCFnqTZ260tI-Ip0gif4iFf-KKX8oJMhMURTYJmgcskOH71lz1PaKLJFXFT1b4LX7uOS6m-lX4bvEzeqr4mXekpUZjO7XFWFX6AS=s1360-w1360-h1020-rw"
+        ],
+        googleMapsUrl: "https://maps.app.goo.gl/96WCqSFB3yULpQrZ9"
     }
 ];
 
-//  untuk simpan kategori semasa
+//  kategori semasa
 let currentCategory = 'all';
 
-// 1. FUNGSI UNTUK MERAWAKKAN ARRAY (Fisher-Yates Shuffle)
+// 1. Shuffle (Fisher-Yates Shuffle)
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
