@@ -380,6 +380,25 @@ const restaurants = [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAm_rSGpcqbbqb_q2_A-fpZOf9ma1H0S66DCFnqTZ260tI-Ip0gif4iFf-KKX8oJMhMURTYJmgcskOH71lz1PaKLJFXFT1b4LX7uOS6m-lX4bvEzeqr4mXekpUZjO7XFWFX6AS=s1360-w1360-h1020-rw"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/96WCqSFB3yULpQrZ9"
+    },
+    {
+        id: 21,
+        name: "Rosepink Cafe",
+        category: "kafe",
+        district: "Batu Gajah",
+        isPinned: false,
+        operatingHours: "9:00 AM - 10:30 PM (Ahad Tutup)",
+        decs: "Kafe ala Thai yang menyajikan makanan seperti seafood, western dan pelbagai jenis air.",
+        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk93xahXy9UoEicT9FMFUrt9HCLdV7yKGiGkOgKFLsrBxKRHWLqnqbRNi9gAW3lzHV_e7EDBe5FNHXE17u_djJBuCAFp0PPxMViAaRz32PRi9E1moownbeceGu2_bj7DSX-_RQ=s1360-w1360-h1020-rw",
+        photos: [
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgdtRrRuaGMEuiKqT_wN03AGmmYMJp7k1QxV8sZYR1llF7qwxcrCcc4_BkZ_5vQrTf9G-9NbfncgGWg7X-6b_WPe4h_39i2GyvgNt_ASgQ_0fF0xi9rNeeY2wmpghqz4S16-4JN4f7lF5J=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDzR5LDanpcLyX3E3xfKUK9g_4wApWoVG0ecgz0mHmERRF5Cu7D3JsKgiA8L4YssL5rrXbNNmGN2RV4IjyqjB_wZ7f20QbJYz9LJHRLj_NtFd8a5HXK91ArlO-vOgg9hkuhLM=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl_-5g8ytRaaNAwMwhfYI3s6vsh_JML3ofI6fCWn1bkau6chD7FtidtuoFppj8iFmbs6Mqq58QWk9PgLOiLV9pPSBdluKU9BTCi7d98J3U7Nkyw8lpkhNc82PIftzgDpl1EIhn6wkisx3CM=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-mnFv9TnsHhiSM0cr4IEHy0TPs7ZZuzqQDBo6UwhlAmkuG9iQJSK-bPc7IS5_9BCKs9Z9MmWvZsAimA-DwA6RNV02CeilmmK538gKNWa8SXL_AxjNtxOkEt9CelJIRNA52b8=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlrTOitgPTW0xA-sbyG9L7abJu-uzzvqyYTsbi3fZAqy3HD-A_tA1VpS80tptu0j2H5bNnLwolzZI6IVe5aSM5FM9ObrURYOUIk9ZQm2EhC9LF2cd3GSuw5xCGHQgrnR6KwigwU=s1360-w1360-h1020-rw",
+            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljghrXtTpP-Amd0SYx806oR6WwapBsGOdL0NUnmW8wqATY3PFXe55pSxSJ0QvXKcGnOgAa-5VtDTu8dJotaCpEGd_W28TfNWhY1SsfonRE85Pr7ycqwiqfaXaYr9zrtzuNZ2dQQEsm7XWl=s1360-w1360-h1020-rw"
+        ],
+        googleMapsUrl: "https://maps.app.goo.gl/aM6vFbjrQwRdhgoW8"
     }
 ];
 
