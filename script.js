@@ -388,7 +388,7 @@ const restaurants = [
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "9:00 AM - 10:30 PM (Ahad Tutup)",
-        decs: "Kafe ala Thai yang menyajikan makanan seperti seafood, western dan pelbagai jenis air.",
+        desc: "Kafe ala Thai yang menyajikan makanan seperti seafood, western dan pelbagai jenis air.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk93xahXy9UoEicT9FMFUrt9HCLdV7yKGiGkOgKFLsrBxKRHWLqnqbRNi9gAW3lzHV_e7EDBe5FNHXE17u_djJBuCAFp0PPxMViAaRz32PRi9E1moownbeceGu2_bj7DSX-_RQ=s1360-w1360-h1020-rw",
         photos: [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgdtRrRuaGMEuiKqT_wN03AGmmYMJp7k1QxV8sZYR1llF7qwxcrCcc4_BkZ_5vQrTf9G-9NbfncgGWg7X-6b_WPe4h_39i2GyvgNt_ASgQ_0fF0xi9rNeeY2wmpghqz4S16-4JN4f7lF5J=s1360-w1360-h1020-rw",
