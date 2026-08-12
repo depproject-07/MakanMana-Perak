@@ -368,8 +368,8 @@ const restaurants = [
         category: "kafe",
         district: "Ipoh",
         isPinned: false,
-        operatingHours: "12:00 AM - 1:00 AM, 5:00 PM - 11:59 PM (Jumaat 5:00 pm - 11:59 PM | Khamis Tutup)",
-        desc: "Port makan Western tepi sungai di Ipoh! Menyajikan pelbagai hidangan Western seperti Grilled Lamb Shoulder, Spaghetti dan Burger.",
+        operatingHours: "5:00 PM - 1:00 AM (Last order 12:30 AM | Khamis Tutup)",
+        desc: "Port santai tepi sungai yang menyajikan makanan barat, tempatan serta fusion dengan olahan resipi tersendiri bagi menerbitkan rasa signature. Dijual pada harga yang mampu milik untuk golongan pendapatan sederhana serta rendah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0NEwarwQG4366qNTnY1VdSRwzgrT55YZ_rdrCXT-YvcFu455mJxyh9sFZ13lEEmMjr6PnipkvqVK-VRfbmokWSaFeQAlooKWckEHnzc1ovXbzJSaxKMy_tNhPdQVwGCbsOPpg5_IER1Co=s1360-w1360-h1020-rw",
         photos: [
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1t9EckNlLxVrawKjZEoRvRTQLyPsuBCsUNRtRxg7UyEKCTteb3RW1eezQVfV56VJVXU5irbgaNWLCMH6w5lzy4KHV6TR-0i9J_V_pPZFhP_vmH4bQ1KkkTyBh8PK42dugELm-3kl7IB2S=s1360-w1360-h1020-rw",
