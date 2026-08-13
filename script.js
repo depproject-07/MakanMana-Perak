@@ -388,17 +388,17 @@ const restaurants = [
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "9:00 AM - 10:30 PM (Ahad Tutup)",
-        desc: "Kafe ala Thai yang menyajikan makanan seperti seafood, western dan pelbagai jenis air.",
-        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk93xahXy9UoEicT9FMFUrt9HCLdV7yKGiGkOgKFLsrBxKRHWLqnqbRNi9gAW3lzHV_e7EDBe5FNHXE17u_djJBuCAFp0PPxMViAaRz32PRi9E1moownbeceGu2_bj7DSX-_RQ=s1360-w1360-h1020-rw",
+        desc: "Destinasi masakan Authentic Thai & seafood! Menyajikan pelbagai menu seperti Set Miangpla, Shellout, Belangkas, Masakan panas dan Western Food.",
+        coverImage: "./images/CIrosepink.jpeg",
         photos: [
+            "./images/rosepinkvid2.mp4",
             "./images/rosepinkvid1.mp4",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDzR5LDanpcLyX3E3xfKUK9g_4wApWoVG0ecgz0mHmERRF5Cu7D3JsKgiA8L4YssL5rrXbNNmGN2RV4IjyqjB_wZ7f20QbJYz9LJHRLj_NtFd8a5HXK91ArlO-vOgg9hkuhLM=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl_-5g8ytRaaNAwMwhfYI3s6vsh_JML3ofI6fCWn1bkau6chD7FtidtuoFppj8iFmbs6Mqq58QWk9PgLOiLV9pPSBdluKU9BTCi7d98J3U7Nkyw8lpkhNc82PIftzgDpl1EIhn6wkisx3CM=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-mnFv9TnsHhiSM0cr4IEHy0TPs7ZZuzqQDBo6UwhlAmkuG9iQJSK-bPc7IS5_9BCKs9Z9MmWvZsAimA-DwA6RNV02CeilmmK538gKNWa8SXL_AxjNtxOkEt9CelJIRNA52b8=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlrTOitgPTW0xA-sbyG9L7abJu-uzzvqyYTsbi3fZAqy3HD-A_tA1VpS80tptu0j2H5bNnLwolzZI6IVe5aSM5FM9ObrURYOUIk9ZQm2EhC9LF2cd3GSuw5xCGHQgrnR6KwigwU=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljghrXtTpP-Amd0SYx806oR6WwapBsGOdL0NUnmW8wqATY3PFXe55pSxSJ0QvXKcGnOgAa-5VtDTu8dJotaCpEGd_W28TfNWhY1SsfonRE85Pr7ycqwiqfaXaYr9zrtzuNZ2dQQEsm7XWl=s1360-w1360-h1020-rw"
+            "./images/rosepinkvid3",
+            "./images/rosepinkpic1.jpeg",
+            "./images/rosepinkpic2.jpeg",
+            "./images/rosepinkpic3.jpeg"
         ],
-        googleMapsUrl: "https://maps.app.goo.gl/aM6vFbjrQwRdhgoW8"
+        googleMapsUrl: "https://maps.app.goo.gl/8PgbSaHAreYmaM2g9"
     }
 ];
 
