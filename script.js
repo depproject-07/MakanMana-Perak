@@ -393,7 +393,7 @@ const restaurants = [
         photos: [
             "./images/rosepinkvid2.mp4",
             "./images/rosepinkvid1.mp4",
-            "./images/rosepinkvid3",
+            "./images/rosepinkvid3.mp4",
             "./images/rosepinkpic1.jpeg",
             "./images/rosepinkpic2.jpeg",
             "./images/rosepinkpic3.jpeg"
