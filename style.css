@@ -353,4 +353,18 @@ body {
     font-weight: bold;
 }
 
+/* Styling untuk Badge Kategori (cth: KAFE, MAMAK, dll) */
+.badge-category {
+    display: inline-block;
+    background-color: #ffb703; /* Warna highlight oren/kuning */
+    color: #000000;            /* Warna teks hitam */
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    width: fit-content;
+    text-transform: uppercase; /* Tukar tulisan jadi FAHAM/KAPITAL */
+}
+
 .modal.active, #overlay.active { display: block; }
