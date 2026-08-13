@@ -7,6 +7,7 @@ const restaurants = [
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "24 jam",
+        phone: "019-946 3727",
         desc: "Nasi kandar ikonik Ipoh yang terkenal dengan kuah campur pekat dan ayam merah berempah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmr_39dqmJp2CJleb-A7vw4gkryQ_BfHBE7vqQW5liE6GcK1cRmBswGYRooMtxtb5fzC9PfVU5M9-mvYO0es4S6eLEkztGj7bAIC6dw8OuL0JiUdiHqE4Wc-KBgQ-V9Xfd5iw8=w243-h174-n-k-no-nu",
         photos: [
@@ -45,6 +46,7 @@ const restaurants = [
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "7:30 AM - 12:30 AM",
+        phone: "013-514 3404",
         desc: "Nikmati buffet breakfast harian secara walk-in di Artworks Hotel, Ipoh! Cafe Warisan Bonda turut menyediakan perkhidmatan tempahan khas bagi sajian lunch, hi-tea dan dinner untuk group private event.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0SlHH0c6AOSf21JqIhqY5AJzPcmxo8tOJm-feS5jHt0fx3Tmr8aqWo4y17SAxEehNcb65dq13YfMli6daIXrpDGUwMtD5L7OQ3xZ5sc1N1YC611m5LAwheYWwUGlVnk5v3YCbhQ=s1360-w1360-h1020-rw",
         photos: [
@@ -64,6 +66,7 @@ const restaurants = [
         district: "Taiping",
         isPinned: false, 
         operatingHours: "12:00 PM - 10:00 PM (Rabu Tutup)",
+        phone: "012-293 1101",
         desc: "Mee udang galah banjir yang sangat popular kat Sepetang, Taiping. Kuah pekat mantap!",
         coverImage:  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjcIEgaq48epxOsuIFhh1toQMdckFxOvRaB_uN8J98M0MYU_P6coNpiVBMcerxadN-UpaYN1VYZIEKaFAS8ISPwrJCz8dBGhgiHCcg4sCxFs31hXZy4Bia9n_Egfh-As9miOcAcZzOZso=s1360-w1360-h1020-rw",
         photos: [
@@ -83,6 +86,7 @@ const restaurants = [
         district: "Taiping",
         isPinned: false,
         operatingHours: "24 Jam",
+        phone: "011-1622 8786",
         desc: "Nasi kandar lazat dengan pelbagai jenis lauk pauk dan kuah kari power.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhTGw2E9vu9zRfGedToS8fYDAsS9MB1Oe0sWEsjkMFKbqYh2zpNGw2voxVrE0R29lP8FJ2cz6E318xF15R3w3orEKKG2ptfO1KoFsNZeJ_C7IuDwzHxaLV1C3GuombfLd7Irc=s1360-w1360-h1020-rw",
         photos: [
@@ -102,6 +106,7 @@ const restaurants = [
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "11:00 AM - 10:00 PM",
+        phone: "017-805 7908",
         desc: "Nasi ayam gepuk dengan sambal yang pedas, tapi sedap. Boleh refill sampai puas!",
         coverImage: "https://lh3.googleusercontent.com/proxy/Sk6Vd9pD6h5uzhMGVyj6sAJDkx1Ve3Xxfd1_UGSJiqXL256l1YqyW_Dpooi6iyMMk77Ucih73bWDd_508L8u3KcIxOkZNwmkgkvPMDQBcJlH3GcBGVZqShTt6ev8sQP-MN-Fp0rWv6KRfdoQeiK5rlRyXCwatw=s1360-w1360-h1020-rw",
         photos: [
@@ -121,6 +126,7 @@ const restaurants = [
         district: "Manjung",
         isPinned: false,
         operatingHours: "8:00 AM - 5:00 PM (Jumaat Tutup)",
+        phone: "011-2657 1594",
         desc: "Kafe dengan gaya klasik",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntr1CDw1lHjlpEOjejP6Uuq2FVPLy9nC0BZhoxpM3itUimV2MNhvAUcc1CK6yqiFeLZJc4SuqKyEviX-CJtuor2XyS1JkV6tMPd4JorJEmiF6sxXQ9Tpg6dHTaVbHoNw1dBJHlsg=s1360-w1360-h1020-rw",
         photos: [
@@ -140,6 +146,7 @@ const restaurants = [
         district: "Manjung",
         isPinned: false,
         operatingHours: "6:30 AM - 12.00 AM",
+        phone: "05-486 6000",
         desc: "Antara restoran kegemaran ramai di Seri Manjung. Nasi kandar dengan kuah campur yang pekat dan ayam goreng rangup, mesti cuba!",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwcY6ZyRDvt_1gTZulUbbQeLAtB5_FrTqo8peB2L_jbHaUGuVkdtuoUCeFj-Tfle0DN8SMZKwxs7ZLyRMwr-VcoaGiXLa8YezRcXLmv60t5HK-SN_TJmpzfaFs0XY9eNT1SaY5hPhaRkBG=s1360-w1360-h1020-rw",
         photos: [
@@ -159,6 +166,7 @@ const restaurants = [
         district: "Kuala Kangsar",
         isPinned: false,
         operatingHours: "6:00 PM - 2:00 AM (Isnin Tutup)",
+        phone: "010-217 1903",
         desc: "Kafe dengan suasana yang tenang. Layan suasana dengan pelbagai jenis air seperti latte, matcha dan makanan- makanan ringan",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1D6xo8qIuXzVvDrV5q558WVdT6f4VaGaV2D-Z3oQl1UlyIjvV3maFngq47Yu3Svsn18m-_XwfvphdWVkehuwvIZholfTrFZCl-PylWjyvsOrrLfcZqcG6GHBadPDSnSxpfhDzepbIjzU=s1360-w1360-h1020-rw",
         photos: [
@@ -178,6 +186,7 @@ const restaurants = [
         district: "Kuala Kangsar",
         isPinned: false,
         operatingHours: "3:30 PM - 1:30 AM",
+        phone: "010-335 9888",
         desc: "Port makanan Western yang popular di Kuala Kangsar. Antara makanan popular seperti Fried Chicken Chop dan Mushroom Soup",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOlS-I35pVQatSbiC4HkY0nyIAqoVPEMsXzdl3eF5NA3XqpznC70JnuJBHg0qEW4g5gIOZ9vO6b9vU1iPVyVDh1oJBQp-voygviEjDvHrG9Jmf_QZedaKhs4-y76N71MowcKA2=s1360-w1360-h1020-rw",
         photos: [
@@ -217,6 +226,7 @@ const restaurants = [
         district: "Teluk Intan",
         isPinned: false,
         operatingHours: "7:00 AM - 5:00 PM (Ahad Tutup)",
+        phone: "011-2642 7712",
         desc: "Restoran makanan tengah hari dengan hidangan utama udang galah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWka82mIflAQ7lmZyyTVwgUhXP9ZQdnHIvVN4JjkrrHF4m0ystDkvv1DY9SVP0Q6GXUjmvJ6N6gJ0AHfqr9VebUfvdhdnObdNffcK9U315pvE4_hHyasXeKnHmXaN9Xh_YuSVKlPa2dEAek=s1360-w1360-h1020-rw",
         photos: [
@@ -236,6 +246,7 @@ const restaurants = [
         district: "Kampar",
         isPinned: false,
         operatingHours: "4:30 PM - 12:30 AM",
+        phone: "012-512 2179",
         desc: "Restoran makan malam dengan pelbagai hidangan seperti nasi ayam, makanan western dan gorengan.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlkrXf9WB5lRsGY6ouPhJJIq8ypp3bmsEg2ZU0XF1wmrEBofDzPJzhbytY2qCWlq_O8h3PhM2_knBtTt1s8KDDrIUp9tKxXw64Jw60nQDbmk2zQAtf93z5b86GQ5VU4D3MWtjxcMs54MQPq=s1360-w1360-h1020-rw",
         photos: [
@@ -255,6 +266,7 @@ const restaurants = [
         district: "Kampar",
         isPinned: false,
         operatingHours: "12:00 PM - 10:00 PM",
+        phone: "011-2736 8321",
         desc: "Kafe gaya premium di Kampar.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCDy0RLFTjiuqRdaAISqrT0AoEJGJW443OJUcAkbA4P7bQ67gJ83gDSrheekFD7DNlvcEg9bEyamDYRPppWCeGg89FGOdY1_LPKhx_Nrr4tiRFV_QUhI3pzuM2-QM8x5I-QgrvzilReKxu=s1360-w1360-h1020-rw",
         photos: [
@@ -274,6 +286,7 @@ const restaurants = [
         district: "Seri Iskandar",
         isPinned: false,
         operatingHours: "7:00 AM - 12:30 PM (Isnin tutup)",
+        phone: "018-777 2435",
         desc: "Port sarapan pagi dengan pelbagai menu di Seri Iskandar.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUyphMf8aF-xb4VAjqQY6m7N0HwEueBFekiiuzhAvYBcva16Agyvv_7IEcJVDVok0KGqPqyoyNfvEyIB6kng8-MMgHIkt-qmiyBiZg1L_rGOHHA1E_FwJf15uZOQ_Prxjo0gfx=s1360-w1360-h1020-rw",
         photos: [
@@ -293,6 +306,7 @@ const restaurants = [
         district: "Seri Iskandar",
         isPinned: false,
         operatingHours: "24 jam",
+        phone: "05-371 2486",
         desc: "Kedai mamak 24 jam di Seri Iskandar.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk8bAec7JLpgUaZH5womefqLnk5v0If_BOgEY_8jD6PF31Kq_bEAzcV-68540gOGGG9MnGABadFFDTZ_JDAO6JDDozjXYGvNiIIFLwLqIXWe0kVuSaqkQOKXOWA3GJ1WFreWYrlbQ=s1360-w1360-h1020-rw",
         photos: [
@@ -312,6 +326,7 @@ const restaurants = [
         district: "Tanjung Malim",
         isPinned: false,
         operatingHours: "5:00 PM - 2:00 AM",
+        phone: "019-699 5393",
         desc: "Antara keddai tomyam yang popular di Tnjung Malim.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4rdahDh5qcCgV5vwnBOnqD9o0SgWBNWJd13JEDkCMSCpdB7ChmWSassKA8LQkXMbbwwgq0UwNOEs2GypIaG462Jyiw5NWhN0jxX-bYpgOHO5g5IPqJUZvLydE31MptOjdsO3L6ISpWE5P=s1360-w1360-h1020-rw",
         photos: [
@@ -350,6 +365,7 @@ const restaurants = [
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "4:00 PM - 11:30 PM",
+        phone: "017-466 0657",
         desc: "Port makan malam kegemaran ramai di Batu Gajah! Menyajikan pelbagai pilihan pizza, nasi arab, makanan western dan ala carte.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnK65mIBJjZqfln_0Eck4bZ2AX9Jkjdvyt1BlQdb47ndCjrlyrg2x67iaGDxHoZfP-ZgHeHsdRNQ6HeKtZC7BMNmHVTY9isBzyc5CdzWkP3p_OBZKJ8km-VkRnQDah5SHnnEdDXIANg5W60=s1360-w1360-h1020-rw",
         photos: [
@@ -369,6 +385,7 @@ const restaurants = [
         district: "Ipoh",
         isPinned: false,
         operatingHours: "5:00 PM - 1:00 AM (Last order 12:30 AM | Khamis Tutup)",
+        phone: "010-322 9004",
         desc: "Port santai tepi sungai yang menyajikan makanan barat, tempatan serta fusion dengan olahan resipi tersendiri bagi menerbitkan rasa signature. Dijual pada harga yang mampu milik untuk golongan pendapatan sederhana serta rendah.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0NEwarwQG4366qNTnY1VdSRwzgrT55YZ_rdrCXT-YvcFu455mJxyh9sFZ13lEEmMjr6PnipkvqVK-VRfbmokWSaFeQAlooKWckEHnzc1ovXbzJSaxKMy_tNhPdQVwGCbsOPpg5_IER1Co=s1360-w1360-h1020-rw",
         photos: [
@@ -388,7 +405,7 @@ const restaurants = [
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "3:00 PM - 10:30 PM",
-        phone: "014-9017687",
+        phone: "014-901 7687",
         desc: "Destinasi masakan Authentic Thai & seafood! Menyajikan pelbagai menu seperti Set Miangpla, Shellout, Belangkas, Masakan panas dan Western Food.",
         coverImage: "./images/CIrosepink.jpeg",
         photos: [
