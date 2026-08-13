@@ -387,7 +387,8 @@ const restaurants = [
         category: "kafe",
         district: "Batu Gajah",
         isPinned: false,
-        operatingHours: "9:00 AM - 10:30 PM (Ahad Tutup)",
+        operatingHours: "3:00 PM - 10:30 PM",
+        phone: "014-9017687",
         desc: "Destinasi masakan Authentic Thai & seafood! Menyajikan pelbagai menu seperti Set Miangpla, Shellout, Belangkas, Masakan panas dan Western Food.",
         coverImage: "./images/CIrosepink.jpeg",
         photos: [
@@ -515,6 +516,7 @@ function openModal(id) {
     document.getElementById('modal-title').innerText = item.name;
     document.getElementById('modal-location-text').querySelector('span').innerText = item.district;
     document.getElementById('modal-hours').innerText = item.operatingHours || "Masa tidak dinyatakan";
+    document.getElementById('modal-phone').innerText = item.phone || 'Tiada No. Phone';
     document.getElementById('modal-desc').innerText = item.desc;
     document.getElementById('modal-map-link').href = item.googleMapsUrl;
 
