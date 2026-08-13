@@ -391,7 +391,7 @@ const restaurants = [
         desc: "Kafe ala Thai yang menyajikan makanan seperti seafood, western dan pelbagai jenis air.",
         coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk93xahXy9UoEicT9FMFUrt9HCLdV7yKGiGkOgKFLsrBxKRHWLqnqbRNi9gAW3lzHV_e7EDBe5FNHXE17u_djJBuCAFp0PPxMViAaRz32PRi9E1moownbeceGu2_bj7DSX-_RQ=s1360-w1360-h1020-rw",
         photos: [
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgdtRrRuaGMEuiKqT_wN03AGmmYMJp7k1QxV8sZYR1llF7qwxcrCcc4_BkZ_5vQrTf9G-9NbfncgGWg7X-6b_WPe4h_39i2GyvgNt_ASgQ_0fF0xi9rNeeY2wmpghqz4S16-4JN4f7lF5J=s1360-w1360-h1020-rw",
+            "./images/rosepinkvid1.mp4",
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDzR5LDanpcLyX3E3xfKUK9g_4wApWoVG0ecgz0mHmERRF5Cu7D3JsKgiA8L4YssL5rrXbNNmGN2RV4IjyqjB_wZ7f20QbJYz9LJHRLj_NtFd8a5HXK91ArlO-vOgg9hkuhLM=s1360-w1360-h1020-rw",
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl_-5g8ytRaaNAwMwhfYI3s6vsh_JML3ofI6fCWn1bkau6chD7FtidtuoFppj8iFmbs6Mqq58QWk9PgLOiLV9pPSBdluKU9BTCi7d98J3U7Nkyw8lpkhNc82PIftzgDpl1EIhn6wkisx3CM=s1360-w1360-h1020-rw",
             "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-mnFv9TnsHhiSM0cr4IEHy0TPs7ZZuzqQDBo6UwhlAmkuG9iQJSK-bPc7IS5_9BCKs9Z9MmWvZsAimA-DwA6RNV02CeilmmK538gKNWa8SXL_AxjNtxOkEt9CelJIRNA52b8=s1360-w1360-h1020-rw",
@@ -523,17 +523,32 @@ function openModal(id) {
     galleryContainer.innerHTML = '';
     
     if (item.photos && item.photos.length > 0) {
-        item.photos.forEach(imgUrl => {
-            const img = document.createElement('img');
-            img.src = imgUrl;
+        item.photos.forEach(mediaUrl => {
+            let mediaElement;
 
-            img.onclick = function() {
-                const viewer = document.getElementById('imageViewer');
-                const fullImg = document.getElementById('fullImage');
-                fullImg.src =imgUrl;
-                viewer.classList.add('active');
+            // 1. Kalau link tu adalah video MP4
+            if (mediaUrl.endsWith('.mp4')) {
+                mediaElement = document.createElement('video');
+                mediaElement.src = mediaUrl;
+                mediaElement.controls = true; // keluar butang play/pause
+                mediaElement.style.width = "100%"; // bagi ngam-ngam saiz modal
+                mediaElement.style.borderRadius = "8px"; // kalau nak lawa sikit
+            } 
+            // 2. Kalau gambar biasa (kekalkan fungsi asal)
+            else {
+                mediaElement = document.createElement('img');
+                mediaElement.src = mediaUrl;
+                
+                // Fungsi zoom gambar macam asal
+                mediaElement.onclick = function() {
+                    const viewer = document.getElementById('imageViewer');
+                    const fullImg = document.getElementById('fullImage');
+                    fullImg.src = mediaUrl;
+                    viewer.classList.add('active');
+                };
             }
-            galleryContainer.appendChild(img);
+
+            galleryContainer.appendChild(mediaElement);
         });
     }
 

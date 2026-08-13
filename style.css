@@ -135,45 +135,36 @@ body {
 
 /* CARDS & GRID */
 .restaurant-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  .restaurant-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px !important;
-  }
-  
-  .card.pinned {
-    grid-column: span 1 !important;
-  }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .card {
-  background-color: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  position: relative;
-  border: 1px solid #e9ecef;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    position: relative;
+    border: 1px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card.pinned {
-  border: 2px solid #ffb703;
+    border: 2px solid #ffb703;
 }
+
 .card-img {
-    height: 120px !important;
+    width: 100%;
+    height: 180px;
     object-fit: cover;
 }
 
 .card-body {
-    padding: 10px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -289,11 +280,9 @@ body {
     font-size: 0.88rem; 
     color: #4a5568; 
     margin-bottom: 15px; 
-    max-height: none !important;
-    line-height: 1.4em;
-    overflow: visible !important;
-    white-space: normal !important;
-    -webkit-line-clamp: unset !important;
+    max-height: 2.6em;
+    line-height: 1.3em;
+    overflow: hidden;
 }
 
 .gallery-grid {
@@ -364,107 +353,4 @@ body {
     font-weight: bold;
 }
 
-/*Mobile header */
-@media (max-width: 768px) {
-    .hero-text{
-        padding: 8px 12px !important;
-    }
-
-    .hero-text h1 {
-        font-size: 1.15rem !important;
-        margin-bottom: 2px !important;
-    }
-
-    .hero-text p {
-        font-size: 1.15rem !important;
-    }
-
-    .search-box {
-        margin-bottom: 8px !important;
-    }
-
-    .category-container, .category-buttom {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-        overflow-x: auto !important;
-        gap: 6px !important;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .cat-btn {
-        white-space: nowrap !important;
-        font-size: 0.78rem !important;
-        padding: 5px 10px !important;
-        flex-shrink: 0 !important;
-    }
-}
-
-/*featured kat gambar*/
-.bagde-featured-overlay {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    background-color: #ffb703;
-    color: #000000;
-    font-weight: bold;
-    font-size: 0.65rem;
-    padding: 3px 8px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.badge-category {
-    font-size: 0.68rem;
-    background-color: #ffe6e6;
-    color: #d90429;
-    font-weight: 700;
-    padding: 3px 8px;
-    border-radius: 4px;
-    display: inline-block;
-    margin-bottom: 6px;
-    max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-}
-
-/* FIX GAMBAR KANTOI PENYEK & BADGE FEATURED */
-.card-img-wrapper {
-  position: relative;
-  width: 100%;
-  height: 130px; /* Ketinggian gambar standard */
-  overflow: hidden;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.card-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Elak gambar penyek / terherot */
-  display: block;
-}
-
-.badge-featured-overlay {
-  position: absolute !important;
-  top: 8px !important;
-  left: 8px !important;
-  background-color: #ffb703;
-  color: #000000;
-  font-weight: bold;
-  font-size: 0.65rem;
-  padding: 3px 7px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  z-index: 10;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-    
 .modal.active, #overlay.active { display: block; }
