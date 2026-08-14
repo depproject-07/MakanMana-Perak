@@ -3,7 +3,7 @@ const restaurants = [
     {
         id: 1,
         name: "Restoran Nasi Vanggey (Greentown)",
-        category: "mamak",
+        category: ["mamak"],
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "24 jam",
@@ -23,7 +23,7 @@ const restaurants = [
     {
         id: 2,
         name: "Mee Daud Mat Jasak",
-        category: "petang/malam",
+        category: ["petang/malam"],
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "4:00 PM (Ahad Tutup)",
@@ -42,7 +42,7 @@ const restaurants = [
     {
         id: 3,
         name: "Cafe Warisan Bonda Artworks Hotel",
-        category: "kafe",
+        category: ["kafe"],
         district: "Ipoh",
         isPinned: false, 
         operatingHours: "7:30 AM - 12:30 AM",
@@ -62,7 +62,7 @@ const restaurants = [
     {
         id: 4,
         name: "Mee Udang Mak Jah",
-        category: "tengah-hari",
+        category: ["tengah-hari"],
         district: "Taiping",
         isPinned: false, 
         operatingHours: "12:00 PM - 10:00 PM (Rabu Tutup)",
@@ -82,7 +82,7 @@ const restaurants = [
     {
         id: 5,
         name: "Restoran Nasi Kandar An Naseem Maju",
-        category: "mamak",
+        category: ["mamak"],
         district: "Taiping",
         isPinned: false,
         operatingHours: "24 Jam",
@@ -102,7 +102,7 @@ const restaurants = [
     {
         id: 6,
         name: "Ayam Gepuk Top Asia",
-        category: "tengah-hari",
+        category: ["tengah-hari"],
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "11:00 AM - 10:00 PM",
@@ -122,7 +122,7 @@ const restaurants = [
     {
         id: 7,
         name: "Hirupiring Kopitiam Seri Manjung",
-        category: "sarapan",
+        category: ["sarapan"],
         district: "Manjung",
         isPinned: false,
         operatingHours: "8:00 AM - 5:00 PM (Jumaat Tutup)",
@@ -142,7 +142,7 @@ const restaurants = [
     {
         id: 8,
         name: "Restoran Madinah",
-        category: "mamak",
+        category: ["mamak"],
         district: "Manjung",
         isPinned: false,
         operatingHours: "6:30 AM - 12.00 AM",
@@ -162,7 +162,7 @@ const restaurants = [
     {
         id: 9,
         name: "Ate Bajang Coffee",
-        category: "kafe",
+        category: ["kafe"],
         district: "Kuala Kangsar",
         isPinned: false,
         operatingHours: "6:00 PM - 2:00 AM (Isnin Tutup)",
@@ -182,7 +182,7 @@ const restaurants = [
     {
         id: 10,
         name: "The pejoi's Signature",
-        category: "petang/malam",
+        category: ["petang/malam"],
         district: "Kuala Kangsar",
         isPinned: false,
         operatingHours: "3:30 PM - 1:30 AM",
@@ -203,7 +203,7 @@ const restaurants = [
     {
         id: 11,
         name: "DCANAI CAFE ",
-        category: "sarapan",
+        category: ["sarapan"],
         district: "Teluk Intan",
         isPinned: false,
         operatingHours: "7:00 AM - 12:29 PM (Selasa Tutup)",
@@ -222,7 +222,7 @@ const restaurants = [
     {
         id: 12,
         name: "Restoran Udang Galah Teluk Intan",
-        category: "tengah-hari",
+        category: ["tengah-hari"],
         district: "Teluk Intan",
         isPinned: false,
         operatingHours: "7:00 AM - 5:00 PM (Ahad Tutup)",
@@ -242,7 +242,7 @@ const restaurants = [
     {
         id: 13,
         name: "SR Selera Idaman",
-        category: "petang/malam",
+        category: ["petang/malam"],
         district: "Kampar",
         isPinned: false,
         operatingHours: "4:30 PM - 12:30 AM",
@@ -262,7 +262,7 @@ const restaurants = [
     {
         id: 14,
         name: "The Alley Concept Store",
-        category: "kafe",
+        category: ["kafe"],
         district: "Kampar",
         isPinned: false,
         operatingHours: "12:00 PM - 10:00 PM",
@@ -282,7 +282,7 @@ const restaurants = [
     {
         id: 15,
         name: "Makan Pagi D'Cafetiam",
-        category: "sarapan",
+        category: ["sarapan"],
         district: "Seri Iskandar",
         isPinned: false,
         operatingHours: "7:00 AM - 12:30 PM (Isnin tutup)",
@@ -302,7 +302,7 @@ const restaurants = [
     {
         id: 16,
         name: "Rahman's Corner",
-        category: "mamak",
+        category: ["mamak"],
         district: "Seri Iskandar",
         isPinned: false,
         operatingHours: "24 jam",
@@ -322,7 +322,7 @@ const restaurants = [
     {
         id: 17,
         name: "Destina Tomyam",
-        category: "petang/malam",
+        category: ["petang/malam"],
         district: "Tanjung Malim",
         isPinned: false,
         operatingHours: "5:00 PM - 2:00 AM",
@@ -342,7 +342,7 @@ const restaurants = [
     {
         id: 18,
         name: "Sambal Bakar Malaya",
-        category: "tengah-hari",
+        category: ["tengah-hari"],
         district: "Tanjung Malim",
         isPinned: false,
         operatingHours: "11:00 AM - 10:30 PM",
@@ -361,7 +361,7 @@ const restaurants = [
     {
         id: 19,
         name: "Big Portion Cafe",
-        category: "petang/malam",
+        category: ["petang/malam"],
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "4:00 PM - 11:30 PM",
@@ -381,7 +381,7 @@ const restaurants = [
     {
         id: 20,
         name: "Dapor Montak Riverside Cafe",
-        category: "kafe",
+        category: ["kafe"],
         district: "Ipoh",
         isPinned: false,
         operatingHours: "5:00 PM - 1:00 AM (Last order 12:30 AM | Khamis Tutup)",
@@ -401,7 +401,7 @@ const restaurants = [
     {
         id: 21,
         name: "Rosepink Cafe",
-        category: "kafe",
+        category: ["kafe"],
         district: "Batu Gajah",
         isPinned: false,
         operatingHours: "3:00 PM - 10:30 PM",
@@ -417,6 +417,26 @@ const restaurants = [
             "./images/rosepinkpic3.jpeg"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/8PgbSaHAreYmaM2g9"
+    },
+    {
+        id: 22,
+        name: "Warung Kopi Biskut Lutut",
+        category: ["sarapan", "petang/malam"],
+        district: "Ipoh",
+        isPinned: false,
+        operatingHours: "7:30 AM - 1:30PM & 5:00 PM - 11:00 PM",
+        phone: "05-547 7424",
+        desc: "Port sarapan pagi di Ipoh. Menyajikan 143 jenis menu.",
+        coverImage: "./images/CIwkbl.jpeg",
+        photos: [
+            "./images/wkblvid1.mp4",
+            "./images/wkblvid2.mp4",
+            "./images/wkblvid3.mp4",
+            "./images/wkblpic1.jpeg",
+            "./images/wkblpic2.jpeg",
+            "./images/wkblpic3.jpeg"
+        ],
+        googleMapsUrl: "https://maps.app.goo.gl/tfojZX2TdQ1PUWRE8"
     }
 ];
 
@@ -450,10 +470,10 @@ function applyFilters() {
     const selectedDistrict = document.getElementById('district-filter').value;
     const searchVal = document.getElementById('search-input')?.value.toLowerCase().trim() || '';
 
-    // TAPIS 1: Mengikut Kategori
+    // TAPIS 1: Mengikut Kategori (sokong berbilang kategori setiap kedai)
     let filtered = currentCategory === 'all' 
         ? [...restaurants] 
-        : restaurants.filter(r => r.category === currentCategory);
+        : restaurants.filter(r => r.category.includes(currentCategory));
 
     // TAPIS 2: Mengikut Daerah
     if (selectedDistrict !== 'all') {
@@ -464,7 +484,7 @@ function applyFilters() {
     if (searchVal !== '') {
         filtered = filtered.filter (r =>
             r.name.toLowerCase().includes(searchVal) ||
-            r.category.toLowerCase().includes(searchVal) ||
+            r.category.some(cat => cat.toLowerCase().includes(searchVal)) ||
             (r.desc && r.desc.toLowerCase().includes(searchVal))
             );
     }
@@ -506,13 +526,18 @@ function renderCards(list) {
       featuredBadge = '<span class="badge-featured-overlay"><i class="fa-solid fa-star"></i> FEATURED</span>';
     }
 
+    // Papar satu badge untuk setiap kategori yang kedai ni ada
+    const categoryBadges = item.category
+        .map(cat => `<span class="badge-category">${cat}</span>`)
+        .join(' ');
+
     card.innerHTML = `
       <div class="card-img-wrapper" style="position: relative;">
         <img src="${item.coverImage}" alt="${item.name}" class="card-img">
         ${featuredBadge}
       </div>
       <div class="card-body">
-        <span class="badge-category">${item.category}</span>
+        <div class="badge-category-group">${categoryBadges}</div>
         <h3 class="card-title">${item.name}</h3>
         <p class="card-district"><i class="fa-solid fa-location-dot"></i> ${item.district}</p>
         <button class="btn-card-detail" onclick="openModal('${item.id}')">
