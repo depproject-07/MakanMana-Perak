@@ -578,7 +578,7 @@ function openModal(id) {
     document.getElementById('modal-location-text').querySelector('span').innerText = item.district;
     document.getElementById('modal-hours').innerText = item.operatingHours || "Masa tidak dinyatakan";
     document.getElementById('modal-phone').innerText = item.phone || 'Tiada No. Phone';
-    document.getElementById('modal-desc').innerText = item.desc;
+    document.getElementById('modal-desc').innerHTML = item.desc;
     document.getElementById('modal-map-link').href = item.googleMapsUrl;
 
     // Galeri Foto
