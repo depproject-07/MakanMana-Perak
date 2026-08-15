@@ -419,29 +419,45 @@ const restaurants = [
         googleMapsUrl: "https://maps.app.goo.gl/8PgbSaHAreYmaM2g9"
     },
     {
-        id: 22,
-        name: "Warung Kopi Biskut Lutut",
-        category: ["sarapan", "petang/malam"],
-        district: "Ipoh",
+        id: 23,
+        name: "Ratu Satay ",
+        category: ["petang/malam"],
+        district: "Tanjung Tualang",
         isPinned: false,
-        operatingHours: "7:30 AM - 1:30PM & 5:00 PM - 11:00 PM",
-        phone: "05-547 7424",
-        desc: "Port sarapan pagi di Ipoh. Menyajikan 143 jenis menu.",
-        coverImage: "./images/CIwkbl.jpeg",
+        operatingHours: "4:00 PM - 11 PM (Isnin Tutup)",
+        phone: "016-409 1914",
+        desc: "<b>Tradisi Satay Sejak 1941</b><br>Empat generasi, satu warisan rasa di Tanjung Tualang. Menyajikan 35 Jenis Satay dan banyak lagi.",
+        coverImage: "./images/CIratusatay.jpeg",
         photos: [
-            "./images/wkblvid1.mp4",
-            "./images/wkblvid2.mp4",
-            "./images/wkblvid3.mp4",
-            "./images/wkblpic1.jpeg",
-            "./images/wkblpic2.jpeg",
-            "./images/wkblpic3.jpeg"
+            "./images/ratusatayvid1.mp4",
+            "./images/ratusatayvid2.mp4",
+            "./images/ratusatayvid3.mp4",
+            "./images/ratusataypic1.jpeg",
+            "./images/ratusataypic2.jpeg",
+            "./images/ratusataypic3.jpeg"
         ],
-        googleMapsUrl: "https://maps.app.goo.gl/tfojZX2TdQ1PUWRE8"
+        googleMapsUrl: "https://maps.app.goo.gl/LTwUNcuErtKnDorh6"
     }
 ];
 
 //  kategori semasa
 let currentCategory = 'all';
+
+// KUMPULAN DAERAH
+const districtGroups = {
+    "Parit Buntar": ["Parit Buntar", "Kerian"],
+    "Taiping": ["Taiping", "Kamunting"],
+    "Gerik": ["Gerik", "Lenggong"],
+    "Kuala Kangsar": ["Kuala Kangsar"],
+    "Ipoh": ["Ipoh"],
+    "Batu Gajah": ["Batu Gajah", "Tanjung Tualang"],
+    "Seri Iskandar": ["Seri Iskandar", "Parit", "Bota", "Kampung Gajah"],
+    "Kampar": ["Kampar"],
+    "Manjung": ["Manjung", "Sitiawan", "Pangkor"],
+    "Teluk Intan": ["Teluk Intan", "Bagan Datuk"],
+    "Tapah": ["Tapah", "Bidor", "Sungkai"],
+    "Tanjung Malim": ["Tanjung Malim", "Slim River"]
+};
 
 // 1. Shuffle (Fisher-Yates Shuffle)
 function shuffleArray(array) {
@@ -475,9 +491,12 @@ function applyFilters() {
         ? [...restaurants] 
         : restaurants.filter(r => r.category.includes(currentCategory));
 
-    // TAPIS 2: Mengikut Daerah
+    // TAPIS 2: Mengikut Daerah (sokong kumpulan kawasan, contoh: Batu Gajah termasuk Tanjung Tualang)
     if (selectedDistrict !== 'all') {
-        filtered = filtered.filter(r => r.district.toLowerCase().includes(selectedDistrict.toLowerCase()));
+        const group = districtGroups[selectedDistrict] || [selectedDistrict];
+        filtered = filtered.filter(r => 
+            group.some(d => r.district.toLowerCase() === d.toLowerCase())
+        );
     }
 
     //Searchbar
