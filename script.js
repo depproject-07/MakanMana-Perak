@@ -437,6 +437,26 @@ const restaurants = [
             "./images/ratusataypic3.jpeg"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/LTwUNcuErtKnDorh6"
+    },
+    {
+        id: "24",
+        name: "Warung Kopi Biskut Lutut",
+        category: ["sarapan", "petang/malam"],
+        district: "Ipoh",
+        isPinned: false,
+        operatingHours: "7:30 AM - 1:30 PM & 5:00 PM - 11:00 PM",
+        phone: "05-547 7424",
+        desc: "Port sarapan pagi dan malam malam di Ipoh. menyajikan 143 jenis makanan.",
+        coverImage: "./images/CIwkbl.jpeg",
+        photos: [
+            "./images/wkblvid1.mp4",
+            "./images/wkblvid2.mp4",
+            "./images/wkblvid3.mp4",
+            "./images/wkblpic1.jpeg",
+            "./images/wkblpic2.jpeg",
+            "./images/wkblpic3.jpeg"
+        ],
+        googleMapsUrl: "https://maps.app.goo.gl/Kbp6VitwisZgXJ7y9"
     }
 ];
 
