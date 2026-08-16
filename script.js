@@ -439,7 +439,7 @@ const restaurants = [
         googleMapsUrl: "https://maps.app.goo.gl/LTwUNcuErtKnDorh6"
     },
     {
-        id: "24",
+        id: 24,
         name: "Warung Kopi Biskut Lutut",
         category: ["sarapan", "petang/malam"],
         district: "Ipoh",
