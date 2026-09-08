@@ -35,7 +35,7 @@ const restaurants = [
             "./images/daudpic3.jpg",
             "./images/daudpic4.jpg",
             "./images/daudpic5.jpg",
-            "./iamges/daudpic6.jpg"
+            "./images/daudpic6.jpg"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/dqLpFiRd931RDZB47"
     },
