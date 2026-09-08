@@ -9,14 +9,14 @@ const restaurants = [
         operatingHours: "24 jam",
         phone: "019-946 3727",
         desc: "Nasi kandar ikonik Ipoh yang terkenal dengan kuah campur pekat dan ayam merah berempah.",
-        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmr_39dqmJp2CJleb-A7vw4gkryQ_BfHBE7vqQW5liE6GcK1cRmBswGYRooMtxtb5fzC9PfVU5M9-mvYO0es4S6eLEkztGj7bAIC6dw8OuL0JiUdiHqE4Wc-KBgQ-V9Xfd5iw8=w243-h174-n-k-no-nu",
+        coverImage: "./images/vanggeyCI.jpg",
         photos: [
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmie5soz0KEWzXI451e8uKPSy-0appczy1T6ox4pdeZ_gq7tG6TPBT8H2TOtwrYqsYdN7eHcusRT67c0TbebfuFBq1GqVBeWuDL0Alr9UYOG3pkFaygmQOO0mP-aUWDTPrYTwyZ0iQK_6v_=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn9yf6bj8P7UPphIaSuhuEqLFETezaTZjlEB_2YR3Vd3TtLWDaiRwBCgBEj-16-HE_szrsYPBvC0habJg9ATeR55sOKFVE7KJzoHoB_QgD7H1FO20LaGCtt5Q6bmxUlI3XDLxv3zc4twBn2=w243-h304-n-k-no-nu",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDYCv10hfUw5qzzGmrAEgKQyH8C3nR0IvwUeRHItlKJXKAkyMt1pRRHuDQ_PULl8F0vj6C0CGSD5tA7L1Rfsbk9rljCrgyfZ21rPRIrOoxhsIlckVx-gHBrabMJo7yoJMGrjvqJL_a2AuB=w243-h174-n-k-no-nu",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl58hwcmMgX-i1VT_JuHEU86giH-_Flf1oFcTI8ueXipDU7UNTOuzGqVGaxZJlQ47AJqQPpT9CMSJJHa0Zh719v1X5UO2wow3WuIhkZen__huCUWJsVeUoaJmK8JVl-4-0ousDn8l3n1MYP=w243-h406-n-k-no-nu",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmQbHggN8Mx44mI80R2MVQJ8ACWbf1NaLVQ-6nZ1mvm3JsxVW95MbFx65q5xJ2LbUrIuuCPURqCdY4T6W69_IruiR12Y4gufcBqc81MNOTx2DCGUUA5Brq381GQEN8rzdZqhDpy2oEXjVbN=w243-h174-n-k-no-nu",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl6ugT9d3r4WPWDJd94QOLVDiMDwVOJEaZ2t-eS_uE-QzSktYf1dxl-xnS4nwCE2kVzUifPVIbAdXdZCPInsInG2XY29AoQ8H7we-bsYdg4BmTgs3zQykY_7VJ-_bY23QZx4HauH_723dcb=w141-h141-n-k-no-nu"
+            "./images/vanggeypic1.jpg",
+            "./images/vanggeypic2.jpg",
+            "./images/vanggeypic3.jpg",
+            "./images/vanggeypic4.jpg",
+            "./images/vanggeypic5.jpg",
+            "./images/vanggeypic6.jpg"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/Lk5RaZqUzJwFnZL7A"
     },
