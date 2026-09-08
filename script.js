@@ -28,14 +28,14 @@ const restaurants = [
         isPinned: false, 
         operatingHours: "4:00 PM (Ahad Tutup)",
         desc: "Port legend mee kicap, mee kari dan mee sup di Ipoh sejak tahun 1970-an. Terkenal dengan kuah mee yang lazat.",
-        coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnrDt3uSf3ft6SOvoBJGB5L1us9wCKJ1VHiBrEvTL-LXzWYJrO0qJ33wTthiGuoVxN2Fpdumh9VnMoC8BKDzAziZzk3KUyWEjifUzsGC1P7gleBhFoxRbK4VG6Rph21EggsyySaWj9ACUib=s1360-w1360-h1020-rw",
+        coverImage: "./images/daudCI.jpg",
         photos: [
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9t02PZ5oUWu7Wa2QwEK9TPnM8V9bXIQjKjVIzB8ytjDTMc2HA54bde9CnXKAl2JvZcoxn2ptoTFmd_060gI1EFIXMDV4IYl6kiJLWpIIzs0Muc3IVMpExwG7460WPYHhV0pdlSjc7FOvX=s1360-w1360-h1020-rw",
-            "https://lh3.googleusercontent.com/grass-cs/ACvplmPSdIEy1M6hG17pk7Oa6DlO4Sn8Vh-3aemg389ZXjQm09QFPKsS_pCm7QNsF2_ttIeDYYJ35h-FfXshzMqgCSYM5To8WEArU6h_NZCbUwyRDOXaQxci7Yv98X6_Bnf76pXp9Glc2OPyLyqu=s1360-w1360-h1020-rw",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjXnwzh4Jyg-xm04_GlZlqtx4NczcgIQPazOKdAlUfTg&s=10",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cvWgfh4VypfyxgAt9hd4p5wkBxkZNUn-MWjvI_Dgng&s=10",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG83AaXeSUjfOmkdjXLQggyKSOByf0V7gpFb9rWh-DA&s=10",
-            "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7YUoakSG-tXcZBTAjvPjB7D2hnDb1OueJS5eWRukTmueim1rYcMu_h75RUDQOSfbm6wc35VsX1nh1oLX_O0JVOoI3P3DiRTUV5SF47XvyNglMsSQpr4GeN-sBCtE7FkxTe6JVkcCFB9pw=s1360-w1360-h1020-rw",
+            "./images/daudpic1.jpg",
+            "./images/daudpic2.jpg",
+            "./images/daudpic3.jpg",
+            "./images/daudpic4.jpg",
+            "./images/daudpic5.jpg",
+            "./iamges/daudpic6.jpg"
         ],
         googleMapsUrl: "https://maps.app.goo.gl/dqLpFiRd931RDZB47"
     },
